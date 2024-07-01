@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Allan&display=swap');
+    </style>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+
+    <title>Goldis-vom-Almetal</title>
+
+</head>
+
+<body id="bodyID">
+
+    <div class="navButton" id="navButtonID" onclick="menu()">
+        <img src="pictures/menu.png">
+    </div>
+
+    <div class="header" id="headerID">
+        <h1>Goldies-vom-Almetal</h>
+    </div>
+
+    <div class="navbar" id="navbarID">
+        
+        <div class="nav" onclick="window.location.href='  index.html'">
+            <a style="color: white;font-size: 30px;" class="navText"><strong>Home</strong></a>
+        </div>
+
+        <div class="nav" onclick="window.location.href='html/überUns.html'">
+            <a class="navText">Über uns</a>
+        </div>
+
+        <div class="nav" onclick="window.location.href='html/unsereHunde.html'">
+            <a class="navText">Unsere Hunde</a>
+        </div>
+
+            <div class="navButtonIn" onclick="navInOpenUnsereHunde()"><img id="navButtonInImageUnsereHundeID" src="pictures/arrow.png"></div>
+
+            <div class="navIn" id="navInUnsereHundeID" onclick="window.location.href='html/In/UnsereHunde-Nola.html'" hidden="true">
+                <a>Nola</a>
+            </div>
+
+        <div class="nav" onclick="window.location.href='html/nachzucht.html'">
+            <a class="navText">Nachzucht</a>
+        </div>
+
+            <div class="navButtonIn" onclick="navInOpenNachzucht()"><img id="navButtonInImageNachzuchtID" src="pictures/arrow.png"></div>
+
+            <div class="navIn" id="navInNachzuchtID" onclick="window.location.href='html/In/Nachzucht-Nola.html'" hidden="true">
+                <a>Nola</a>
+            </div>
+
+                <div class="navButtonInIn" id="navButtonInIn" onclick="navInNachzuchtInNola()" hidden="true" ><img id="navButtonInNachzuchtInNolaID" src="pictures/arrow.png"></div>
+
+                <div class="navInIn" id="navInNachzuchtInNolaID" onclick="window.location.href='html/In/Nachzucht-Nola-2024.html'" hidden="true">
+                    <a>2024</a>
+                </div>
+
+        <div class="nav" onclick="window.location.href='html/aufzucht.html'">
+            <a class="navText">Aufzucht</a>
+        </div>
+
+        <div class="nav" onclick="window.location.href='html/welpentagebücher.html'">
+            <a class="navText">Welpentagebücher</a>
+        </div>
+
+            <div class="navButtonIn" onclick="navInOpenWelpentagebücher()"><img id="navButtonInImageWelpentagebücherID" src="pictures/arrow.png"></div>
+
+            <div class="navIn" id="navInWelpentagebücherID" onclick="window.location.href='html/In/Welpentagebücher-Nola.html'" hidden="true">
+                <a>Nola</a>
+            </div>
+
+        <div class="nav" onclick="window.location.href='html/kontakt.html'">
+            <a class="navText">Kontakt</a>
+        </div>
+
+        <div class="nav" onclick="window.location.href='html/impressum.html'">
+            <a class="navText">Impressum</a>
+        </div>
+        
+    </div>
+    
+    <div class="navbarExit" id="navbarExitID" onclick="exit()"></div>
+
+    <div class="content" id="contentID">
+        
+        <img class="contentPicture" src="pictures/Nola.jpg" width="700px">
+        
+        <h1 style="padding-top: 50px; padding-bottom: 50px;">
+            Herzlich Willkommen <br>
+            auf unserer Homepage!
+        </h1> 
+
+        <a>
+        Wir  möchten euch hier unsere Golden Retriever Zucht vorstellen.
+        </a>    
+    
+    </div>
+    
+</body>
+
+</html>
